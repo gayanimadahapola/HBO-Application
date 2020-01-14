@@ -9,14 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    /*
+    @IBOutlet weak var subscriptionButton : UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+            subscriptionButton.layer.cornerRadius = 5
+            subscriptionButton.layer.borderColor = UIColor.gray.cgColor
+            subscriptionButton.layer.borderWidth = 2
+        }
+ */
     }
-    
-    
 
-}
+
+
 
 
