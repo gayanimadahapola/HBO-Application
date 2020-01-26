@@ -9,16 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-    /*
-    @IBOutlet weak var subscriptionButton : UIButton!
+    
+    @IBOutlet weak var txtEmail: UITextField!
+    
+    @IBOutlet weak var txtPassword: UITextField!
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-            subscriptionButton.layer.cornerRadius = 5
-            subscriptionButton.layer.borderColor = UIColor.gray.cgColor
-            subscriptionButton.layer.borderWidth = 2
-        }
- */
+        
+      
     }
+    
+}
 
 
 

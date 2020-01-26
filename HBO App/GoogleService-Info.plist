@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>154440149686-tdic8db8q2bnkr7hqkas9imia5h7rerm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.154440149686-tdic8db8q2bnkr7hqkas9imia5h7rerm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDey8A6UmkBVIi-T69ZCczZOsAo_hssS-8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>154440149686</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nibm.dream.HBO-App</string>
+	<key>PROJECT_ID</key>
+	<string>my-app-ed399</string>
+	<key>STORAGE_BUCKET</key>
+	<string>my-app-ed399.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:154440149686:ios:16631d0ddaf5bf5fdd1417</string>
+	<key>DATABASE_URL</key>
+	<string>https://my-app-ed399.firebaseio.com</string>
+</dict>
+</plist>

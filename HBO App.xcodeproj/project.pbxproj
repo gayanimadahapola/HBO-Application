@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,13 @@
 		0A048F8E23CD02DA00BA4366 /* HBO_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A048F8C23CD02DA00BA4366 /* HBO_App.xcdatamodeld */; };
 		0A048F9023CD02DC00BA4366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A048F8F23CD02DC00BA4366 /* Assets.xcassets */; };
 		0A048F9323CD02DC00BA4366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A048F9123CD02DC00BA4366 /* LaunchScreen.storyboard */; };
+		0A83CA2323D2BE8D006C521B /* StarterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83CA2223D2BE8D006C521B /* StarterViewController.swift */; };
+		0A83CA2523D2C19A006C521B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83CA2423D2C19A006C521B /* LoginViewController.swift */; };
+		0A83CA2723D2C2BF006C521B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83CA2623D2C2BF006C521B /* RegisterViewController.swift */; };
+		0A83CA2B23D2CC52006C521B /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83CA2A23D2CC52006C521B /* DashboardViewController.swift */; };
+		0A83CA2D23D2E003006C521B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83CA2C23D2E003006C521B /* TableViewController.swift */; };
+		0A93ACF123D09F4000979A52 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A93ACF023D09F4000979A52 /* GoogleService-Info.plist */; };
+		D4C51E68DFBC0DB5FC36C096 /* Pods_HBO_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71E2FAE2A325AD5FD5CD905 /* Pods_HBO_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,15 @@
 		0A048F8F23CD02DC00BA4366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A048F9223CD02DC00BA4366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A048F9423CD02DC00BA4366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A83CA2223D2BE8D006C521B /* StarterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterViewController.swift; sourceTree = "<group>"; };
+		0A83CA2423D2C19A006C521B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0A83CA2623D2C2BF006C521B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		0A83CA2A23D2CC52006C521B /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		0A83CA2C23D2E003006C521B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		0A93ACF023D09F4000979A52 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9B79D490BEEBD6D719957E30 /* Pods-HBO App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO App.debug.xcconfig"; path = "Target Support Files/Pods-HBO App/Pods-HBO App.debug.xcconfig"; sourceTree = "<group>"; };
+		F71E2FAE2A325AD5FD5CD905 /* Pods_HBO_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBO_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB255DC52439144B66E3B423 /* Pods-HBO App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO App.release.xcconfig"; path = "Target Support Files/Pods-HBO App/Pods-HBO App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4C51E68DFBC0DB5FC36C096 /* Pods_HBO_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				0A048F8423CD02DA00BA4366 /* HBO App */,
 				0A048F8323CD02DA00BA4366 /* Products */,
+				8CC74B05319EF6336FF930FC /* Pods */,
+				71A0654E22C6BCD6E451C9B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +75,14 @@
 		0A048F8423CD02DA00BA4366 /* HBO App */ = {
 			isa = PBXGroup;
 			children = (
+				0A93ACF023D09F4000979A52 /* GoogleService-Info.plist */,
 				0A048F8523CD02DA00BA4366 /* AppDelegate.swift */,
+				0A83CA2A23D2CC52006C521B /* DashboardViewController.swift */,
+				0A83CA2223D2BE8D006C521B /* StarterViewController.swift */,
+				0A83CA2423D2C19A006C521B /* LoginViewController.swift */,
+				0A83CA2623D2C2BF006C521B /* RegisterViewController.swift */,
 				0A048F8723CD02DA00BA4366 /* ViewController.swift */,
+				0A83CA2C23D2E003006C521B /* TableViewController.swift */,
 				0A048F8923CD02DA00BA4366 /* Main.storyboard */,
 				0A048F8F23CD02DC00BA4366 /* Assets.xcassets */,
 				0A048F9123CD02DC00BA4366 /* LaunchScreen.storyboard */,
@@ -67,6 +92,23 @@
 			path = "HBO App";
 			sourceTree = "<group>";
 		};
+		71A0654E22C6BCD6E451C9B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F71E2FAE2A325AD5FD5CD905 /* Pods_HBO_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CC74B05319EF6336FF930FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B79D490BEEBD6D719957E30 /* Pods-HBO App.debug.xcconfig */,
+				FB255DC52439144B66E3B423 /* Pods-HBO App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A048F9723CD02DC00BA4366 /* Build configuration list for PBXNativeTarget "HBO App" */;
 			buildPhases = (
+				D32B0F02F6E69F1A33C25533 /* [CP] Check Pods Manifest.lock */,
 				0A048F7E23CD02DA00BA4366 /* Sources */,
 				0A048F7F23CD02DA00BA4366 /* Frameworks */,
 				0A048F8023CD02DA00BA4366 /* Resources */,
+				DC4D55094734A4002AFED3A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A048F9323CD02DC00BA4366 /* LaunchScreen.storyboard in Resources */,
+				0A93ACF123D09F4000979A52 /* GoogleService-Info.plist in Resources */,
 				0A048F9023CD02DC00BA4366 /* Assets.xcassets in Resources */,
 				0A048F8B23CD02DA00BA4366 /* Main.storyboard in Resources */,
 			);
@@ -133,13 +178,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D32B0F02F6E69F1A33C25533 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBO App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC4D55094734A4002AFED3A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBO App/Pods-HBO App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBO App/Pods-HBO App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HBO App/Pods-HBO App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A048F7E23CD02DA00BA4366 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0A048F8823CD02DA00BA4366 /* ViewController.swift in Sources */,
+				0A83CA2B23D2CC52006C521B /* DashboardViewController.swift in Sources */,
 				0A048F8E23CD02DA00BA4366 /* HBO_App.xcdatamodeld in Sources */,
+				0A83CA2D23D2E003006C521B /* TableViewController.swift in Sources */,
+				0A83CA2323D2BE8D006C521B /* StarterViewController.swift in Sources */,
+				0A83CA2723D2C2BF006C521B /* RegisterViewController.swift in Sources */,
+				0A83CA2523D2C19A006C521B /* LoginViewController.swift in Sources */,
 				0A048F8623CD02DA00BA4366 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +376,7 @@
 		};
 		0A048F9823CD02DC00BA4366 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B79D490BEEBD6D719957E30 /* Pods-HBO App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +394,7 @@
 		};
 		0A048F9923CD02DC00BA4366 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB255DC52439144B66E3B423 /* Pods-HBO App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
